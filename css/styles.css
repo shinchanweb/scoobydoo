@@ -1,0 +1,171 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* heading */
+
+.first-title {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.feature-title {
+  font-weight: bold;
+}
+
+.pricing-heading {
+  font-weight: bold;
+}
+
+/* containers */
+
+ .container-fluid {
+  padding:  7% 15%;
+
+
+
+
+}
+
+
+
+/* sections */
+
+.colored-section{
+  background-color: #53c9b2;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+/* Download buttons */
+
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+
+
+}
+
+
+#features {
+ position: relative;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #53c9b2;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #0ed0e6;
+}
+
+/* testimonial-section */
+
+#Quotes {
+  background-color: #ef8172;
+}
+
+.Quotes-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+
+.Quotes-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+/* pricing-section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width:991px) {
+  .Title-image {
+    position: relative;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* footer-section */
+
+.footer-final {
+  padding: 1% 5%;
+  font-size: 15px
+}
+
+.footer-margin {
+  margin: 20px 10px;
+}
